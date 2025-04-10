@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const axiosInstance = axios.create({
         baseURL: baseURL,
         withCredentials: true,
-      });
+    });
     let accessToken = localStorage.getItem("accessToken");
 
     async function checkLoged() {
